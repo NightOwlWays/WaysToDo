@@ -24,7 +24,7 @@ export default function Todo() {
     ]
 
     return (
-        <View>
+        <View className="flex bg-white">
             <StatusBar />
             <View className="h-16 mt-11 mx-5 flex flex-row justify-between items-center">
                 <View>
@@ -47,7 +47,7 @@ export default function Todo() {
                     className="w-80 h-10 mb-7 px-3 bg-slate-200 rounded-md border-2 border-slate-700"
                     placeholder="Search list..."
                 />
-                <View>
+                <View className="flex flex-row gap-2">
                     <View>
                         <CategoryDropdown />
                     </View>

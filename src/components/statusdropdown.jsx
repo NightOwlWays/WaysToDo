@@ -20,7 +20,7 @@ export default function statusDropdown() {
         <View>
             {render()}
             <Dropdown
-                className="w-80 h-10 mb-7 px-3 bg-slate-200 rounded-md border-2 border-slate-700"
+                className="w-40 h-10 mb-7 px-3 bg-slate-200 rounded-md border-2 border-slate-700"
                 data={data}
                 labelField="label"
                 maxHeight={200}
